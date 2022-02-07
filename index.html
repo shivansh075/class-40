@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./libraries/p5.dom.min.js"></script>
+    <script src="./libraries/p5.js"></script>
+    <script src="./libraries/p5.play.js"></script>
+
+     <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyANDhfOwsfLxrwMptEm7eSn6IO8ciO7LH4",
+  authDomain: "multi-car-racing-a7ce2.firebaseapp.com",
+  databaseURL: "https://multi-car-racing-a7ce2-default-rtdb.firebaseio.com",
+  projectId: "multi-car-racing-a7ce2",
+  storageBucket: "multi-car-racing-a7ce2.appspot.com",
+  messagingSenderId: "323966871174",
+  appId: "1:323966871174:web:44c58eca274c36848ad307",
+  measurementId: "G-S2711B8XK4"
+};
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="./js/game.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/player.js"></script>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
